@@ -15,15 +15,19 @@ Este proyecto es un microservicio basado en Express que proporciona un endpoint 
 ├── package.json
 └── README.md
 
-# Endpoint
+## Endpoint
 
-`POST /uploads/base64`
+### `POST /uploads/base64`
 
+#### Request
+
+```json
 {
-"folder": "ejemplo",
-"image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
-"image_name": "imagen.png"
+  "folder": "ejemplo",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+  "image_name": "imagen.png"
 }
+```
 
 # Instalación
 
@@ -42,3 +46,7 @@ Este proyecto es un microservicio basado en Express que proporciona un endpoint 
 # .gitignore
 
 En el archivo gitignore se omite la carpeta de uploads y el nodemodules
+
+```
+
+```
