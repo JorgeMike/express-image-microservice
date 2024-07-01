@@ -2,19 +2,6 @@
 
 Este proyecto es un microservicio basado en Express que proporciona un endpoint para subir imágenes. Las imágenes se reciben en formato base64 y se almacenan en una estructura de carpetas definida por el usuario.
 
-## Estructura del Proyecto
-
-├── src
-│ ├── controllers
-│ ├── routes
-│ ├── middleware
-│ └── server.js
-├── uploads
-│ └── (Carpetas de imágenes creadas manualmente)
-├── .gitignore
-├── package.json
-└── README.md
-
 ## Endpoint
 
 ### `POST /uploads/base64`
@@ -46,7 +33,3 @@ Este proyecto es un microservicio basado en Express que proporciona un endpoint 
 # .gitignore
 
 En el archivo gitignore se omite la carpeta de uploads y el nodemodules
-
-```
-
-```
