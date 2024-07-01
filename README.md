@@ -15,6 +15,16 @@ Este proyecto es un microservicio basado en Express que proporciona un endpoint 
 ├── package.json
 └── README.md
 
+# Endpoint
+
+`POST /uploads/base64`
+
+{
+"folder": "ejemplo",
+"image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+"image_name": "imagen.png"
+}
+
 # Instalación
 
 `git clone https://github.com/JorgeMike/express-image-microservice.git`
